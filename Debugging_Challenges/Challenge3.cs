@@ -67,7 +67,7 @@ public class Challenge3
 		}
 	}
 	
-	static int FIRE_ALTITUDE = 1067; // landing rockets should start to fire 
+	static int FIRE_ALTITUDE = 3067; // landing rockets should start to fire 
 	                                 // when altitude reaches 1067 meters
 	
 	public static bool CheckFireRetroRockets(int altitude) 
