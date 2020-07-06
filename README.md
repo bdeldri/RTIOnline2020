@@ -14,4 +14,8 @@ Scratch: https://scratch.mit.edu/
 
 Unity 3D: https://unity.com/
 
-# A new section
+# Minecraft Code Reading
+
+Minecraft 1.12 Source: https://github.com/TheGrimSilence/mc-1.12.2-source_files
+
+Forestry Mod: https://github.com/ForestryMC/ForestryMC
