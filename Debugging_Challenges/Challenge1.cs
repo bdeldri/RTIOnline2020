@@ -15,9 +15,8 @@ public class Challenge1
 		// 99
 		//
 		
-        for(var i = 0; i < 7; i++) {
+        for(var i = 0; i < 5; i++) {
             Console.WriteLine(valuesToPrint[i]);
-			i++;
         }
 	}
-}
+} 
