@@ -1,3 +1,4 @@
+
 using System;
 
 public class Challenge2
@@ -25,7 +26,7 @@ public class Challenge2
 		for(int i = -5; i <= 5; i++) 
 		{
 			var result = ChangeValue(i);
-			for(int j = 0; j < result; j++) 
+			for(int j = 0; j < Math.Abs (result); j++) 
 			{
 				Console.Write("#");
 			}
@@ -34,7 +35,7 @@ public class Challenge2
 	}
 	
 	public static int ChangeValue(int a) 
-	{
+	{if(a==0) return 20;
 		return 20 / a;
 	}
 }
