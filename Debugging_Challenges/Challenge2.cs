@@ -35,6 +35,10 @@ public class Challenge2
 	
 	public static int ChangeValue(int a) 
 	{
-		return 20 / a;
+	    if(a == 0){
+	        return 20;
+	    } else{
+		return 20 / Math.Abs(a);
+	    }
 	}
 }
